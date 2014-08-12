@@ -817,12 +817,19 @@ ul.social-buttons li a:active {
     font-size: 3em;
 }
 
+@media(min-width: 768px){
+.portfolio-modal .modal-content p {
+    margin: 0px auto 30px auto;
+    width: 60%;
+}
+}
+
 .portfolio-modal .modal-content p {
     margin-bottom: 30px;
 }
 
 .portfolio-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
+    margin:20px auto 30px auto;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
@@ -834,7 +841,7 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin: 0px auto 30px auto;
 }
 
 .portfolio-modal .close-modal {
