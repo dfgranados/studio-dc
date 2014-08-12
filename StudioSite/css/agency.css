@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+        color: #CFC1AC;
 }
 
 a:hover,
@@ -169,12 +169,34 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fff;
 }
 
-.fa
+#arrow-left, #arrow-right
 {
     color: rgba(0, 0, 0 , 0.4);
     text-align: center;
-    padding-top: 30%;
-    position: absolute;
+    display: inline-block;
+}
+
+#arrow-left:hover, #arrow-right:hover
+{
+    color: rgba(0, 0, 0 , 1);
+}
+
+#teacher-circle
+{
+    color: rgba(0, 0, 0 , 0.4);
+    margin: 20px;
+}
+
+.map
+{
+    height: 500px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#teacher-circle:hover
+{
+    color: rgba(0, 0, 0 , 1);
 }
 
 .navbar-default {
@@ -217,7 +239,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #A28F6F;
+    color: #CFC1AC;
 }
 
 .navbar-default .nav li a:hover,
@@ -273,8 +295,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(http://www.kamalayoga.org.uk/images/SK%20clinic%203.jpg);
-    background-position: center center;
+    background-image: url(../img/header.jpg);
+    background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -736,6 +758,7 @@ footer span.copyright {
     text-transform: none;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
+    color: #CFC1AC;
 }
 
 footer ul.quicklinks {
@@ -759,7 +782,7 @@ ul.social-buttons li a {
     line-height: 40px;
     outline: 0;
     color: #fff;
-    background-color: #222;
+    background-color: #CFC1AC;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
@@ -814,6 +837,12 @@ ul.social-buttons li a:active {
     margin-bottom: 30px;
 }
 
+.portfolio-link img
+{
+    max-height: 240px;
+
+}
+
 .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
@@ -852,6 +881,11 @@ ul.social-buttons li a:active {
 ::-moz-selection {
     text-shadow: none;
     background: #fed136;
+}
+
+#training-circle
+{
+    color: black;
 }
 
 ::selection {
