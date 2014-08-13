@@ -217,15 +217,29 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand  span{
-   top: 25px;
+   top: 5px;
    position:absolute;
 }
 
 .navbar-default .navbar-brand  img{
+    width: 150px;
+}
+
+@media(min-width:768px) {
+
+    .navbar-default .navbar-brand  span{
+   top: 25px;
+   position:absolute;
+}
+
+    .navbar-default .navbar-brand  img{
     width: 200px;
     -webkit-transition-property: height, width;
     -webkit-transition-duration: 1s;
 }
+
+}
+
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
