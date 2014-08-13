@@ -2,6 +2,13 @@
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ Daniel Granados Design
+ Navigation bar: #E7E4D5;
+Nav bar links: #8A211D;
+Main button background:#8A211D
+Section headings: D3C8B4;
+Subheading: #8A211D;
+arrow/dot colors: rgba(231,228,213, 1);
  */
 
 body {
@@ -61,7 +68,7 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: rgba(243,244,229, 0.3);
 }
 
 .bg-darkest-gray {
@@ -119,14 +126,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #8A211D;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #8A211D;
 }
 
 .btn-xl:hover,
@@ -171,19 +178,19 @@ fieldset[disabled] .btn-xl.active {
 
 #arrow-left, #arrow-right
 {
-    color: rgba(0, 0, 0 , 0.4);
+    color: rgba(231,228,213, 0.6);
     text-align: center;
     display: inline-block;
 }
 
 #arrow-left:hover, #arrow-right:hover
 {
-    color: rgba(0, 0, 0 , 1);
+    color: rgba(231,228,213, 1);
 }
 
-#teacher-circle
+#teacher-dot
 {
-    color: rgba(0, 0, 0 , 0.4);
+    color: rgba(231,228,213, 0.6);
     margin: 20px;
 }
 
@@ -194,19 +201,30 @@ fieldset[disabled] .btn-xl.active {
     padding: 0px;
 }
 
-#teacher-circle:hover
+#teacher-dot:hover
 {
-    color: rgba(0, 0, 0 , 1);
+   color: rgba(231,228,213, 1);
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #4F3B2A;
+    background-color: #E7E4D5;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #CFC1AC;
+    color: #8A211D;
+}
+
+.navbar-default .navbar-brand  span{
+   top: 25px;
+   position:absolute;
+}
+
+.navbar-default .navbar-brand  img{
+    width: 200px;
+    -webkit-transition-property: height, width;
+    -webkit-transition-duration: 1s;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -239,7 +257,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #CFC1AC;
+    color: #8A211D;
 }
 
 .navbar-default .nav li a:hover,
@@ -283,19 +301,29 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #4F3B2A;
+        background-color: #E7E4D5;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default.navbar-shrink .navbar-brand span{
+        top: 18px;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand img{
+        width: 150px;
+        -webkit-transition-property: height, width;
+        -webkit-transition-duration: 1s;
+    }
 }
 
 header {
     text-align: center;
-    color: #fff;
+    color: #CF872E;
     background-attachment: scroll;
-    background-image: url(../img/header.jpg);
+    background-image: url(http://www.katjabrandis.com/images/header.jpg);
     background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -358,7 +386,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #4F3B2A;
+    color: #D3C8B4;
 }
 
 section h3.section-subheading {
@@ -368,6 +396,7 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+     color: #8A211D;
 }
 
 @media(min-width:768px) {
@@ -665,7 +694,7 @@ section h3.section-subheading {
 
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #A28F6F;
+    border: 7px solid rgba(231,228,213, 1);;
     max-width: 170px;
 }
 
